@@ -23,16 +23,16 @@ kiet_image = face_recognition.load_image_file("./known/kiet.jpg")
 kiet_face_encoding = face_recognition.face_encodings(kiet_image)[0]
 
 # Load a sample picture and learn how to recognize it.
-#corey_image = face_recognition.load_image_file("./known/corey.jpg")
-#corey_face_encoding = face_recognition.face_encodings(corey_image)[0]
+corey_image = face_recognition.load_image_file("./known/corey.jpg")
+corey_face_encoding = face_recognition.face_encodings(corey_image)[0]
 
 # Load a sample picture and learn how to recognize it.
-#jonah_image = face_recognition.load_image_file("./known/jonah.jpg")
-#jonah_face_encoding = face_recognition.face_encodings(jonah_image)[0]
+jonah_image = face_recognition.load_image_file("./known/jonah.jpg")
+jonah_face_encoding = face_recognition.face_encodings(jonah_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
-#katy_image = face_recognition.load_image_file("./known/katy.jpg")
-#katy_face_encoding = face_recognition.face_encodings(katy_image)[0]
+katy_image = face_recognition.load_image_file("./known/katy.jpg")
+katy_face_encoding = face_recognition.face_encodings(katy_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
 imani_image = face_recognition.load_image_file("./known/imani.jpg")
@@ -46,18 +46,18 @@ raiyan_face_encoding = face_recognition.face_encodings(raiyan_image)[0]
 known_face_encodings = [
     obama_face_encoding,
     kiet_face_encoding,
-    #corey_face_encoding,
-    #jonah_face_encoding,
-    #katy_face_encoding,
+    corey_face_encoding,
+    jonah_face_encoding,
+    katy_face_encoding,
     raiyan_face_encoding,
     imani_face_encoding
 ]
 known_face_names = [
     "Barack Obama",
     "Kiet Tran",
-    #"Corey Wurl",
-    #"Jonah Bera",
-    #"Katy Boeckers",
+    "Corey Wurl",
+    "Jonah Bera",
+    "Katy Boeckers",
     "Raiyan Ahmed",
     "Imani Hunter"
 ]
